@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.6",
+    "tailwind": "^4.0.0",
+    "tailwindcss": "^3.0.21",
+    "vite": "^2.8.0"
+  },
+  "name": "tailwindcss",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "postcss Assets/CSS/style.css -o dist/tailwind.css",
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "Aditya Agrawal",
+  "license": "ISC",
+  "description": ""
+}
